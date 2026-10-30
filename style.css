@@ -1,0 +1,94 @@
+.hero {
+    background-image: url("images/hero.jpg");
+    min-height: 500px;
+    background-position: center 20%;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+
+.achievements {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.about-us {
+    padding: 60px 0;
+}
+
+.about-us img {
+    border-radius: 10px;
+}
+
+.about-us .card {
+    height: 100%;
+}
+
+/* Courses Section */
+.courses {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.courses h2 {
+    margin-bottom: 40px;
+}
+
+.courses .card {
+    height: 100%;
+    transition: 0.3s;
+}
+
+.courses .card:hover {
+    transform: translateY(-5px);
+}
+
+.courses .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.courses .card-body {
+    padding: 20px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.why-choose-us h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.why-choose-us .card {
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.why-choose-us .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.why-choose-us .card-body {
+    padding: 25px 15px;
+}
+
+.why-choose-us .card-title {
+    color: #0d6efd;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.why-choose-us .card-text {
+    color: #555;
+    line-height: 1.6;
+}
